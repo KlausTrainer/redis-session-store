@@ -5,7 +5,6 @@ require 'redis'
 #
 # Options:
 #  :key     => Same as with the other cookie stores, key name
-#  :secret  => Encryption secret for the key
 #  :host    => Redis host name, default is localhost
 #  :port    => Redis port, default is 6379
 #  :db      => Database number, defaults to 0. Useful to separate your session storage from other data
